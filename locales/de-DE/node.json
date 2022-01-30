@@ -1,0 +1,49 @@
+{
+    "SwaggerPetstore": {
+        "label": {
+            "service": "Service",
+            "method": "Methode",
+            "host": "Host",
+            "header": "Header",
+            "value": "Wert",
+            "isQuery": "Suchanfrage"
+        },
+        "status": {
+            "requesting": "Anfrage..."
+        },
+        "parameters": {
+            "uploadFile": "POST /pet/{petId}/uploadImage",
+            "petId": "petId",
+            "additionalMetadata": "additionalMetadata",
+            "file": "file",
+            "addPet": "POST /pet",
+            "body": "body",
+            "updatePet": "PUT /pet",
+            "findPetsByStatus": "GET /pet/findByStatus",
+            "status": "status",
+            "findPetsByTags": "GET /pet/findByTags",
+            "tags": "tags",
+            "getPetById": "GET /pet/{petId}",
+            "updatePetWithForm": "POST /pet/{petId}",
+            "name": "name",
+            "deletePet": "DELETE /pet/{petId}",
+            "apiKey": "api_key",
+            "placeOrder": "POST /store/order",
+            "getOrderById": "GET /store/order/{orderId}",
+            "orderId": "orderId",
+            "deleteOrder": "DELETE /store/order/{orderId}",
+            "getInventory": "GET /store/inventory",
+            "createUsersWithArrayInput": "POST /user/createWithArray",
+            "createUsersWithListInput": "POST /user/createWithList",
+            "getUserByName": "GET /user/{username}",
+            "username": "username",
+            "updateUser": "PUT /user/{username}",
+            "deleteUser": "DELETE /user/{username}",
+            "loginUser": "GET /user/login",
+            "password": "password",
+            "logoutUser": "GET /user/logout",
+            "createUser": "POST /user",
+            "optionalParameters": "Optionen"
+        }
+    }
+}
