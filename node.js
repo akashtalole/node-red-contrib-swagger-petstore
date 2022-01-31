@@ -59,6 +59,11 @@ module.exports = function (RED) {
         var node = this;
 
         node.on('input', function (msg) {
+            console.log("this.service: "+this.service)
+            console.log("this.service.credentials: "+this.service.credentials)
+            console.log("this.service.credentials.secureTokenValue: "+this.service.credentials.secureTokenValue)
+            console.log("this.service.credentials.secureApiKeyValue: "+this.service.credentials.secureApiKeyValue)
+            console.log("this.service.secureTokenIsQuery: "+this.service.secureTokenIsQuery)
             var errorFlag = false;
             var client = new lib.SwaggerPetstore();
             if (!errorFlag && this.service && this.service.credentials && this.service.credentials.secureTokenValue) {

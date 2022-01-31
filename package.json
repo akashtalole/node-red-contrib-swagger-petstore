@@ -11,9 +11,19 @@
       "swagger-petstore": "node.js"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashtalole/node-red-contrib-swagger-petstore.git"
+  },
   "keywords": [
-    "node-red-nodegen"
+    "node-red",
+    "swagger-petstore",
+    "rest"
   ],
+  "bugs": {
+    "url": "https://github.com/akashtalole/node-red-contrib-swagger-petstore/issues"
+  },
+  "homepage": "https://github.com/akashtalole/node-red-contrib-swagger-petstore#readme",
   "dependencies": {
     "q": "1.5.1",
     "request": "2.88.2",
